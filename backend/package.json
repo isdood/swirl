@@ -1,0 +1,21 @@
+{
+  "name": "swirl-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Swirl web3 music sharing platform",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "author": "",
+  "license": "GPL-3.0"
+}
